@@ -1,0 +1,51 @@
+.home-main {
+  height: 80vh;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbarli li {
+    text-align: center;
+  }
+
+  .homepagerow {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+  }
+  .homepagecol2 {
+    margin-top: 35px;
+    text-align: center;
+  }
+  .homepagecol2 h1 {
+    text-align: center !important;
+  }
+
+  .containergallery {
+    margin-top: 260px;
+    height: auto;
+  }
+  .containergallery img {
+    margin: 0px auto;
+  }
+
+  .servicesmainpage {
+    margin-top: 50px;
+  }
+  .servicespage {
+    display: flex;
+    flex-direction: column;
+    padding: 8% 8%;
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .test-main {
+    margin-top: 50px;
+    height: 480px;
+  }
+  .test-main h1 {
+    margin-bottom: 20px;
+  }
+}
